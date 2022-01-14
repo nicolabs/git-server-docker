@@ -20,4 +20,4 @@ if [ "$(ls -A /git-server/repos/)" ]; then
 fi
 
 # -D flag avoids executing sshd as a daemon
-/usr/sbin/sshd -D
+/usr/sbin/sshd -D -e
